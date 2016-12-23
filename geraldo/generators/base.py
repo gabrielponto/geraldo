@@ -533,9 +533,9 @@ class ReportGenerator(GeraldoObject):
         self._current_object_index = 0
         objects = self.report.get_objects_list()
 
-		# load initial object, how this was commit and keep that for years? This line waste about 8 hours of my life.
-		self._current_object = objects[self._current_object_index]
-		
+        # load initial object, how this was commit and keep that for years? This line waste about 8 hours of my life.
+        self._current_object = objects[self._current_object_index]
+        
         # just an alias to make it shorter
         d_band = self.report.band_detail
 
